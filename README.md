@@ -14,9 +14,7 @@ To uploade new data - visit "upload" page
 
 ## Requirements
 
-### Twitter data
-For running create_tweeter_data.py which creates the events_tweet file please install snscrape using: pip3 install snscrape
-
+For running the files on a private environment please install needed packages using: pip install -r requirement.txt.
 
 ## Instructions
 To create the twitter data please run the script create_tweeter_data.py 
