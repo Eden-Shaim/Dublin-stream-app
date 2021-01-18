@@ -14,7 +14,7 @@ To uploade new data - visit "upload" page
 
  Analisys of streaming sensors data, coming from buses in dublin city. The app presents relevant data regarding dublin's traffic for a chosen time range and predicts if an accident will happen in that time range.
 
-# Requirements
+## Requirements
 
-# Twitter data
+### Twitter data
 For runing create_tweeter_data.py which creates the events_tweet file please install snscrape using: pip3 install snscrape
