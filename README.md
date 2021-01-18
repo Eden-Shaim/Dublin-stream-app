@@ -26,6 +26,6 @@ To save streaming data and the predictions on the stream data to Elastic serach 
 To run an H sample to solve the problem of the imbalance of our predicted label (event = car accident or roadblock) and to enhance the quality of the prediction using the bagging method please run _ notebook. 
 - An implementation of the suggested method in the article "An Effective Method for Imbalanced Time Series Classification: Hybrid Sampling"
 
-To start the web-app please run: python _
+To start the web-app please run: website.py
 
 ## App Usage
