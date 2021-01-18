@@ -16,3 +16,15 @@ To uploade new data - visit "upload" page
 
 ### Twitter data
 For running create_tweeter_data.py which creates the events_tweet file please install snscrape using: pip3 install snscrape
+
+
+## Instructions
+To create the twitter data please run the script create_tweeter_data.py 
+
+To save streaming data and the predictions on the stream data to Elastic serach use the warmup.ipynb notebook
+
+To run an H sample to solve the problem of the imbalance of our predicted label (event = car accident or roadblock) and to enhance the quality of the prediction using the bagging method please run _ notebook.
+
+To start the web-app please run: python _
+
+## App Usage
