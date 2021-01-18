@@ -24,9 +24,7 @@ To create the twitter data please run the script create_tweeter_data.py
 To save streaming data and the predictions on the stream data to Elastic serach use the warmup.ipynb notebook (also for the external data that can be uploaded from the web-app)
 
 To run an H sample to solve the problem of the imbalance of our predicted label (event = car accident or roadblock) and to enhance the quality of the prediction using the bagging method please run _ notebook.
-- An implementation of the suggested method in the article "An Effective Method for Imbalanced Time Series Classification: Hybrid Sampling"
-
-  [link to the paper](https://www.researchgate.net/publication/256838360_An_Effective_Method_for_Imbalanced_Time_Series_Classification_Hybrid_Sampling)
+- An implementation of the suggested method in the article ["An Effective Method for Imbalanced Time Series Classification: Hybrid Sampling"](https://www.researchgate.net/publication/256838360_An_Effective_Method_for_Imbalanced_Time_Series_Classification_Hybrid_Sampling)
   
 #### To start the web-app please run: website.py
 
