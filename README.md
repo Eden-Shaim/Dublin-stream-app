@@ -35,5 +35,6 @@ To run an H sample to solve the problem of the imbalance of our predicted label 
  - Click "+ Add Filter" from upper left corner of the page
  - The filter that is relevant for you is the one for "lineId" filed, there you can select the relevant line number. Then, click save. 
  - In the bar in the right corner you can select the time frame in which you plan to leave.
+
 At any time, you can clear all the filters. 
 
