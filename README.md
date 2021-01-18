@@ -27,3 +27,6 @@ To run an H sample to solve the problem of the imbalance of our predicted label 
 #### To start the web-app please run: website.py
 
 ## App Usage
+ - Find the appropriate line that connects the departure station to the destination station you need
+ - You can get a snapshot of the traffic in Delbin according to a filter for the line you selected and the desired time frame
+ - You can get a prediction of whether there will be an event of a car accident or roadblock at the time you plan to leave
