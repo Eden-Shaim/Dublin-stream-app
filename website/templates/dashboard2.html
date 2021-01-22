@@ -1,0 +1,12 @@
+{% extends "layout/default.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/portal.css') }}">
+{% endblock %}
+{% block content %}
+<div id="contentframe" style="position:relative; top: 50px; left: 0px;height: 125%; width: 100%;" >
+<iframe src={{url_}}
+        height="100%" width="100%"></iframe>
+</div>
+{% endblock %}
