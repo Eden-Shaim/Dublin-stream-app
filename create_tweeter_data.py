@@ -33,8 +33,8 @@ def create_hourly_range_column(df_tweets):
     for i, row in df_twitter_events.iterrows():
         curr_date = row['date']
         hour_ahead = curr_date + timedelta(hours=1)
-        if (curr_date in list(df_tweets['Datetime'].values)) or (
-                hour_ahead in list(df_tweets['Datetime'].values)):
+        if (str(curr_date) in list(df_tweets['Datetime'].values)) or (
+                str(hour_ahead) in list(df_tweets['Datetime'].values)):
             event.append(1)
         else:
             event.append(0)
@@ -46,5 +46,3 @@ def create_hourly_range_column(df_tweets):
 if __name__ == '__main__':
     df_tweets = bring_tweets()
     df_twitter_events = create_hourly_range_column(df_tweets)
-    # df_hourly = pd.date_range(start='2017-07-03', end='2018-09-15', freq='H')
-    # print(df_hourly)
