@@ -5,7 +5,7 @@ import datetime
 from datetime import timedelta
 
 def bring_tweets():
-    words = ['traffic', 'Traffic', 'trafic', 'Traffic', 'crash', 'Crash', 'incident', 'Incident',
+    words = ['traffic', 'Traffic', 'trafic', 'Trafic', 'crash', 'Crash', 'incident', 'Incident',
              'accident', 'Accident', 'road', 'Road']
     tweets_list = []
     for word in words:
