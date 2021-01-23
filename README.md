@@ -2,19 +2,44 @@
 Dublin stream app - plan your ride is a real-time analisys app of dublin bus sensors data and dublin traffic tweets from @DublinLive.
 
 To find the bus line that will take you to your desired destination - visit "which line to take?"
+- Select your departure station and destination station and see which direct lines can be used by you
+- The requested stations will appear on the map on the right, where you can examine the different lines according to the route of their stations.
 
 To plan your ride please visit "Real time traffic analysis" where you can find:
- - Avg delayes of your choosen bus line on the time interval you want to investigate 
+ - A prediction - will you encounter an accident\ road block in the time range you filtered with the bus line you chose? a probability for that event to happen
  - The temperature outside in the chosen time interval
- - A heat-map showing the congestion reports in the time interval, for the chosen line
- - A prediction - will you encounter an accident in the time range you filtered? a probability for an event to happen
+ - If it is raining outside in the chosen time interval
+ - Avg delayes of your choosen bus line on the time interval you want to investigate 
+ 
+To uploade new data - visit "upload" page. 
 
-To uploade new data - visit "upload" page
+The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
 
+## Data
+
+Our main dataset contain 230 million records from bus sensors within Dublin, between July 2017 to September 2018.
+
+In addition we integrated:
+ - Dublin weather data from Kuggel : (Attached a csv file is in the repository )
+ - tweets on dublin traffic from @DublinLive
+ 
+Dublin bus stops static data for a feature in out website
+
+
+## Technologies
+*Apache Spark* as processing framework.
+
+Dockers for Instaling *Elasticsearch*, All the data is loaded to Elasticsearch.
+
+Analysis on the data with *Kibana*
+
+*kafka* as a suplier of streaming data
+
+*Python* 3.5+ for runing the website
 
 ## Requirements
 
-For running the files on a private environment please install needed packages using: pip install -r requirement.txt.
+For running the files on a private environment, please install needed packages using: pip install -r requirement.txt.
 
 ## Instructions
 To create the twitter data please run the script create_tweeter_data.py 
@@ -24,11 +49,16 @@ To save streaming data and the predictions on the stream data to Elastic serach 
 To run an H sample to solve the problem of the imbalance of our predicted label (event = car accident or roadblock) and to enhance the quality of the prediction using the bagging method please run creative - h_sampeing_with_bagging.ipynb notebook.
 - An implementation of the suggested method in the article ["An Effective Method for Imbalanced Time Series Classification: Hybrid Sampling"](https://www.researchgate.net/publication/256838360_An_Effective_Method_for_Imbalanced_Time_Series_Classification_Hybrid_Sampling)
   
-#### To start the web-app please run: website.py
+#### To start the web-app please run: website.py which is located in the website directory
+
+Note: The page "which line to take?" in our site is based on static data we created from Dublin bus stops dataset which you can download from:
+https://hub.arcgis.com/datasets/EsriIreland::dublin-bus-stops.
+
+For your convenience we uploaded the ready csv files to the website directory
 
 ## App Usage
  - Find the appropriate line that connects the departure station to the destination station you need
- - You can get a snapshot of the traffic in Delbin according to a filter for the line you selected and the desired time frame
+ - You can get a snapshot of the traffic in Dulbin according to a filter for the line you selected and the desired time frame
  - You can get a prediction of whether there will be an event of a car accident or roadblock at the time you plan to leave
  
 ### Filter Data:
