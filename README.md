@@ -2,13 +2,13 @@
 Dublin stream app - plan your ride is a real-time analisys app of dublin bus sensors data and dublin traffic tweets from @DublinLive.
 
 To find the bus line that will take you to your desired destination - visit "which line to take?"
-- Select your departure station and destination station and see which direct lines can be used by you
+- Select your departure station and destination station and see which direct lines can serve you
 - The requested stations will appear on the map on the right, where you can examine the different lines according to the route of their stations.
 
 To plan your ride please visit "Real time traffic analysis" where you can find:
  - A prediction - will you encounter an accident\ road block in the time range you filtered with the bus line you chose? a probability for that event to happen
  - The temperature outside in the chosen time interval
- - If it is raining outside in the chosen time interval
+ - The amout of rain outside in the chosen time interval
  - Avg delayes of your choosen bus line on the time interval you want to investigate 
  
 To uploade new data - visit "upload" page. 
@@ -17,21 +17,20 @@ The uploaded data will aoutomaticlly be uploaded to Elastic search - our data we
 
 ## Data
 
-Our main dataset contain 230 million records from bus sensors within Dublin, between July 2017 to September 2018.
+Our main dataset contains 230 million records from bus sensors within Dublin, between July 2017 to September 2018.
 
 In addition we integrated:
- - Dublin weather data from Kuggel : (Attached a csv file is in the repository )
- - tweets on dublin traffic from @DublinLive
+ - Dublin weather data from Kuggel : Attached a csv file is in the repository as "weather_ron_eden_updated.csv"
+ - tweets on dublin traffic from @DublinLive that contain one or more words from the word-list ['traffic', 'Traffic', 'trafic', 'Trafic', 'crash', 'Crash', 'incident', 'Incident','accident', 'Accident', 'road', 'Road']. The csv file is attached as event_tweet_update1.csv
  
-Dublin bus stops static data for a feature in out website
-
+Dublin bus stops static data - the csv files are in the website directory, one is zipped due to lack of space.
 
 ## Technologies
 *Apache Spark*  2.4.5 as processing framework.
 
-Dockers for Instaling *Elasticsearch*, All the data is loaded to Elasticsearch.
+Dockers for instaling *Elasticsearch*, All the data is loaded to Elasticsearch.
 
-Analysis on the data with *Kibana*
+Analysis on the data with *Kibana* & *Apache Spark*
 
 *kafka* as a suplier of streaming data
 
