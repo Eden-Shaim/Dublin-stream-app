@@ -27,7 +27,7 @@ Dublin bus stops static data for a feature in out website
 
 
 ## Technologies
-*Apache Spark* as processing framework.
+*Apache Spark*  2.4.5 as processing framework.
 
 Dockers for Instaling *Elasticsearch*, All the data is loaded to Elasticsearch.
 
