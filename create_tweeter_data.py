@@ -40,7 +40,7 @@ def create_hourly_range_column(df_tweets):
             event.append(0)
 
     df_twitter_events['event'] = event
-    df_twitter_events.to_csv('event_tweet_update.csv')
+    df_twitter_events.to_csv('event_tweet_update1.csv')
     return df_twitter_events
 
 if __name__ == '__main__':
