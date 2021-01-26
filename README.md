@@ -7,7 +7,7 @@ To find the bus line that will take you to your desired destination - visit "whi
   
   Ilustraition:
   <p align='center'>
-  <img src="https://user-images.githubusercontent.com/77583113/105835583-a8862080-5fd4-11eb-80eb-aa135cb4d276.png"; style="max-width: 70%";></img>
+  <img src="https://user-images.githubusercontent.com/77583113/105835583-a8862080-5fd4-11eb-80eb-aa135cb4d276.png" style="max-width: 70%";></img>
   </p>
 To plan your ride please visit "Real time traffic analysis" where you can find:
  - A prediction - will you encounter an accident\ road block in the time range you filtered with the bus line you chose? a probability for that event to happen
@@ -17,14 +17,14 @@ To plan your ride please visit "Real time traffic analysis" where you can find:
   
   Ilustraition:
    <p align='center'>
-   <img src="https://user-images.githubusercontent.com/77583113/105837788-d9b42000-5fd7-11eb-9d1c-8d92f3dec78c.png"; style="max-width: 70%";></img>
+   <img src="https://user-images.githubusercontent.com/77583113/105837788-d9b42000-5fd7-11eb-9d1c-8d92f3dec78c.png" style="max-width: 70%";></img>
    </p>
 To uploade new data - visit "Upload" page. 
 
 The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
 
    <p align='center'>
-   <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png"; style="max-width: 30%"; ></img>
+   <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png" style="max-width: 30%"; ></img>
    </p>
    
    
