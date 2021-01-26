@@ -4,17 +4,26 @@ Dublin stream app - plan your ride is a real-time analisys app of dublin bus sen
 To find the bus line that will take you to your desired destination - visit "which line to take?"
 - Select your departure station and destination station and see which direct lines can serve you
 - The requested stations will appear on the map on the right, where you can examine the different lines according to the route of their stations.
-
+  Ilustraition:
+  <p align='center'>
+  <img src="https://user-images.githubusercontent.com/77583113/105835583-a8862080-5fd4-11eb-80eb-aa135cb4d276.png" ></img>
+  </p>
 To plan your ride please visit "Real time traffic analysis" where you can find:
  - A prediction - will you encounter an accident\ road block in the time range you filtered with the bus line you chose? a probability for that event to happen
  - The temperature outside in the chosen time interval
  - The amout of rain outside in the chosen time interval
  - Avg delayes of your choosen bus line on the time interval you want to investigate 
- 
+   Ilustraition:
+   <p align='center'>
+   <img src="https://user-images.githubusercontent.com/77583113/105837788-d9b42000-5fd7-11eb-9d1c-8d92f3dec78c.png" ></img>
+   </p>
 To uploade new data - visit "upload" page. 
 
 The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
 
+   <p align='center'>
+   <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png" ></img>
+   </p>
 ## Data
 
 Our main dataset contains 230 million records from bus sensors within Dublin, between July 2017 to September 2018.
@@ -55,11 +64,9 @@ For your convenience we uploaded the ready csv files to the website directory
 
 ## App Usage
  - Find the appropriate line that connects the departure station to the destination station you need. You can display each of the lines on the map and thus choose the line      that is most suitable for you (according to the number of stations that connect the stations you chose / the area where the bus passes, etc.).
- <p align='center'>
-<img src="https://user-images.githubusercontent.com/77583113/105835583-a8862080-5fd4-11eb-80eb-aa135cb4d276.png" ></img>
-</p>
  - You can get a snapshot of the traffic in Dulbin according to a filter for the line you selected and the desired time frame
  - You can get a prediction of whether there will be an event of a car accident or roadblock at the time you plan to leave
+ 
  
 ### Filter Data:
  - Click "+ Add Filter" from upper left corner of the page
@@ -69,6 +76,7 @@ For your convenience we uploaded the ready csv files to the website directory
 At any time, you can clear all the filters. 
 
 ## Upload Data:
+
 
 The allowed schema for uploading new data is (mendatory) :
 
