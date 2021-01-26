@@ -5,7 +5,7 @@ To find the bus line that will take you to your desired destination - visit "whi
 - Select your departure station and destination station and see which direct lines can serve you
 - The requested stations will appear on the map on the right, where you can examine the different lines according to the route of their stations.
   
-  Ilustraition:
+  Illustration:
   <p align='center'>
   <img src="https://user-images.githubusercontent.com/77583113/105849428-0ae91c00-5fe9-11eb-979b-86d3c62567f7.png";></img>
   </p>
@@ -15,7 +15,7 @@ To plan your ride please visit "Real time traffic analysis" where you can find:
  - The amout of rain outside in the chosen time interval
  - Avg delayes of your choosen bus line on the time interval you want to investigate 
   
-  Ilustraition:
+  Illustration:
    <p align='center'>
    <img src="https://user-images.githubusercontent.com/77583113/105849046-84ccd580-5fe8-11eb-9fdc-078bc9c5895d.png";></img>
    </p>
@@ -52,6 +52,8 @@ Analysis on the data with *Kibana* & *Apache Spark*
 ## Requirements
 
 For running the files on a private environment, please install needed packages using: pip install -r requirement.txt.
+
+In order to see the Kibana dashboard in our website you need to start our virtual machine
 
 ## Instructions
 To create the twitter data please run the script create_tweeter_data.py 
