@@ -22,10 +22,6 @@ To plan your ride please visit "Real time traffic analysis" where you can find:
 To uploade new data - visit "Upload" page. 
 
 The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
-
-   <p align='center'>
-   <img src="https://user-images.githubusercontent.com/77583113/105849171-b2198380-5fe8-11eb-93ff-0296372d383d.png">
-   </p>
    
    
 ## Data
