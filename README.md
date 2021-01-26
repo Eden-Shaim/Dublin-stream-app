@@ -21,7 +21,8 @@ To plan your ride please visit "Real time traffic analysis" where you can find:
    </p>
 To uploade new data - visit "Upload" page. 
 
-The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
+The uploaded data will aoutomaticlly be uploaded to Databricks. By running the cell under "Transform external data and upload to Elastic Search"
+in the creative - h_sampeing_with_bagging.ipynb notebook, the new data will be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
    
    
 ## Data
