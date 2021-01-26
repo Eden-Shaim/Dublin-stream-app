@@ -54,7 +54,7 @@ https://hub.arcgis.com/datasets/EsriIreland::dublin-bus-stops.
 For your convenience we uploaded the ready csv files to the website directory
 
 ## App Usage
- - Find the appropriate line that connects the departure station to the destination station you need
+ - Find the appropriate line that connects the departure station to the destination station you need. You can display each of the lines on the map and thus choose the line      that is most suitable for you (according to the number of stations that connect the stations you chose / the area where the bus passes, etc.).
  - You can get a snapshot of the traffic in Dulbin according to a filter for the line you selected and the desired time frame
  - You can get a prediction of whether there will be an event of a car accident or roadblock at the time you plan to leave
  
