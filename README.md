@@ -23,8 +23,8 @@ To uploade new data - visit "Upload" page.
 
 The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
 
-   <p align='center' "max-width:30%">
-   <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png" >
+   <p align='center'>
+   <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png" "max-width:30%">
    </p>
    
    
