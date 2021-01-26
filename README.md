@@ -4,8 +4,9 @@ Dublin stream app - plan your ride is a real-time analisys app of dublin bus sen
 To find the bus line that will take you to your desired destination - visit "which line to take?"
 - Select your departure station and destination station and see which direct lines can serve you
 - The requested stations will appear on the map on the right, where you can examine the different lines according to the route of their stations.
+  
   Ilustraition:
-  <p align='center' style="max-width: 70%;">
+  <p align='center', style="max-width: 70%;">
   <img src="https://user-images.githubusercontent.com/77583113/105835583-a8862080-5fd4-11eb-80eb-aa135cb4d276.png" ></img>
   </p>
 To plan your ride please visit "Real time traffic analysis" where you can find:
@@ -13,15 +14,16 @@ To plan your ride please visit "Real time traffic analysis" where you can find:
  - The temperature outside in the chosen time interval
  - The amout of rain outside in the chosen time interval
  - Avg delayes of your choosen bus line on the time interval you want to investigate 
-   Ilustraition:
-   <p align='center' style="max-width: 70%;">
+  
+  Ilustraition:
+   <p align='center', style="max-width: 70%;">
    <img src="https://user-images.githubusercontent.com/77583113/105837788-d9b42000-5fd7-11eb-9d1c-8d92f3dec78c.png" ></img>
    </p>
 To uploade new data - visit "upload" page. 
 
 The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
 
-   <p align='center' style="max-width: 30%;">
+   <p align='center', style="max-width: 30%;">
    <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png" ></img>
    </p>
 ## Data
