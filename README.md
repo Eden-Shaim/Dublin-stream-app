@@ -17,14 +17,14 @@ To plan your ride please visit "Real time traffic analysis" where you can find:
   
   Ilustraition:
    <p align='center'>
-   <img src="https://user-images.githubusercontent.com/77583113/105837788-d9b42000-5fd7-11eb-9d1c-8d92f3dec78c.png" style="max-width: 70%";></img>
+   <img src="https://user-images.githubusercontent.com/77583113/105849046-84ccd580-5fe8-11eb-9fdc-078bc9c5895d.png";></img>
    </p>
 To uploade new data - visit "Upload" page. 
 
 The uploaded data will aoutomaticlly be uploaded to Elastic search - our data werhouse ,and will feed the  "Real time traffic analysis" page.
 
    <p align='center'>
-   <img src="https://user-images.githubusercontent.com/77583113/105838156-619a2a00-5fd8-11eb-9e88-5fd889eecd00.png" "max-width:30%">
+   <img src="https://user-images.githubusercontent.com/77583113/105849171-b2198380-5fe8-11eb-93ff-0296372d383d.png">
    </p>
    
    
