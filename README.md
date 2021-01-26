@@ -7,7 +7,7 @@ To find the bus line that will take you to your desired destination - visit "whi
   
   Ilustraition:
   <p align='center'>
-  <img src="https://user-images.githubusercontent.com/77583113/105840000-f69e2280-5fda-11eb-86f1-9a9aea0c27ad.png" style="max-width: 70%";></img>
+  <img src="https://user-images.githubusercontent.com/77583113/105848517-bc874d80-5fe7-11eb-91cb-1646222f7184.png";></img>
   </p>
 To plan your ride please visit "Real time traffic analysis" where you can find:
  - A prediction - will you encounter an accident\ road block in the time range you filtered with the bus line you chose? a probability for that event to happen
