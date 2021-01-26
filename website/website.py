@@ -96,8 +96,8 @@ def favicon():
 def dashboard2():
     global line
     print(line)
-    # url = "http://40.121.19.5:5601/app/dashboards#/view/93b3b1a0-567d-11eb-9f43-f960269201b7?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2018-07-11T15:15:48.353Z',to:'2018-07-12T15:16:23.347Z'))&_a=(description:'',filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'70ed2270-59af-11eb-9898-4f080e6f28a7',key:lineId,negate:!f,params:(query:'122'),type:phrase),query:(match_phrase:(lineId:'122')))),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!f,title:'update%20to%201401',viewMode:view)&show-time-filter=true"
     url = create_link(line)
+    url = "http://da2020w-0017.eastus.cloudapp.azure.com:5601/goto/77dc15099ceb213049d09cbdb10ab971"
     return flask.render_template('dashboard2.html', url_=url)
 
 
@@ -150,7 +150,7 @@ def upload_file():
 
 
 def create_link(lineId):
-    url = "http://40.121.19.5:5601/app/dashboards#/view/93b3b1a0-567d-11eb-9f43-f960269201b7?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2018-07-10T15:15:48.353Z',to:'2018-07-11T15:16:23.347Z'))&_a=(description:'',filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'70ed2270-59af-11eb-9898-4f080e6f28a7',key:lineId,negate:!f,params:(query:'{}'),type:phrase),query:(match_phrase:(lineId:'{}')))),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!f,title:'update%20to%201401',viewMode:view)&show-time-filter=true".format(lineId, lineId)
+    url = "http://da2020w-0017.eastus.cloudapp.azure.com:5601/app/dashboards#/view/93b3b1a0-567d-11eb-9f43-f960269201b7?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2018-07-11T09:44:04.037Z',to:'2018-07-12T09:59:16.747Z'))&_a=(description:'',filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'70ed2270-59af-11eb-9898-4f080e6f28a7',key:lineId,negate:!f,params:(query:'122'),type:phrase),query:(match_phrase:(lineId:'122')))),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!f,title:'update%20to%201401',viewMode:view)&show-time-filter=true".format(lineId, lineId)
     print(url)
     return url
 if __name__ == '__main__':
